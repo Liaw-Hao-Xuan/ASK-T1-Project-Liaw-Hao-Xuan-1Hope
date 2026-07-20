@@ -5,9 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Soundtrack</title>
 </head>
-<body>
-    
+<body class="soundtrack-page">
+  <header class="top-nav">
+    <nav class="main-nav">
+      <a class="nav-item logo" href="index.html" target="mainContent">
+        <span class="mark"><img src="assets/soul.png" alt="Logo" width="40" height="40" /></span>
+      </a>
+      <a class="nav-item" href="reviews.html" target="mainContent">Reviews</a>
+      <a class="nav-item" href="gallery.html" target="mainContent">Game Gallery</a>
+      <a class="nav-item" href="soundtrack.html" target="mainContent">Soundtrack</a>
+    </nav>
+  </header>
+
+    <main class="page-main">
+        <section class="hero-section">
+            <h1>Soundtrack</h1>
+            <p>Explore a small carousel of memorable tracks that capture the mood of the games.</p>
+        </section>
+
+        <section class="carousel-section">
+            <div class="carousel">
+                <button class="carousel-btn" data-direction="prev" type="button">&#10094;</button>
+
+                <div class="carousel-track">
+                    <article class="carousel-card active">
+                        <h3>Once Upon a Time</h3>
+                        <p>The first track in the whole game which you hear during the opening story.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track1.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                    <article class="carousel-card">
+                        <h3>Ghost Fight</h3>
+                        <p>A track that plays when encountering the ghost, napstablook.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track2.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                    <article class="carousel-card">
+                        <h3>Heartache</h3>
+                        <p>A theme that plays when encountering the first major boss. The queen of the underground.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track3.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                    <article class="carousel-card">
+                        <h3>Bonetrousle</h3>
+                        <p>A theme that plays when facing the first bone brother Papyrus.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track1.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                    <article class="carousel-card">
+                        <h3>Metal Crusher</h3>
+                        <p>Another boss theme that plays when encounter the killer robot named Mettaton.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track2.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                    <article class="carousel-card">
+                        <h3>Bergentrucking</h3>
+                        <p>The theme that plays when encountering the king, ASGORE. The end of your journey has come.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track3.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                    <article class="carousel-card">
+                        <h3>Battle Against A True Hero</h3>
+                        <p>A theme that only plays during the genocide route requiring you to take the lives of many monsters. Undyne stands in your way preventing you from continuing.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track1.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                    <article class="carousel-card">
+                        <h3>Power Of "NEO"</h3>
+                        <p>The second phase of Mettaton only seen during the genocide route.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track2.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                    <article class="carousel-card">
+                        <h3>Megalovania</h3>
+                        <p>The most iconic and recognizable theme in the game. Used by the second bone brother, Sans. Only seen during the genocide route.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track3.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                    <article class="carousel-card">
+                        <h3>Hopes and Dreams</h3>
+                        <p>Theme only seen in the pacifist route used by the son of the king, named Asriel taking the power of the 6 human souls attemping to steal yours.</p>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="assets/track1.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback.
+                            </audio>
+                        </div>
+                    </article>
+                </div>
+
+                <button class="carousel-btn" data-direction="next" type="button">&#10095;</button>
+            </div>
+
+            <div class="carousel-dots">
+                <button class="dot active" data-index="0" type="button" aria-label="Show first track"></button>
+                <button class="dot" data-index="1" type="button" aria-label="Show second track"></button>
+                <button class="dot" data-index="2" type="button" aria-label="Show third track"></button>
+                <button class="dot" data-index="3" type="button" aria-label="Show fourth track"></button>
+                <button class="dot" data-index="4" type="button" aria-label="Show fifth track"></button>
+                <button class="dot" data-index="5" type="button" aria-label="Show sixth track"></button>
+                <button class="dot" data-index="6" type="button" aria-label="Show seventh track"></button>
+                <button class="dot" data-index="7" type="button" aria-label="Show eighth track"></button>
+                <button class="dot" data-index="8" type="button" aria-label="Show ninth track"></button>
+                <button class="dot" data-index="9" type="button" aria-label="Show tenth track"></button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
