@@ -13,7 +13,7 @@ h1{
 .main-nav{
   display: flex;
   justify-content: center;
-  background-color: #000;
+  background-color: #111;
   padding: 10px;
 }
 
@@ -150,4 +150,10 @@ h1{
   .gallery-grid{
     grid-template-columns: 1fr;
   }
+}
+
+.footer-title{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
 }

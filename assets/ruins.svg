@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180">
-  <rect width="300" height="180" fill="#1f1f1f"/>
-  <rect x="40" y="70" width="220" height="70" fill="#3b2c2c"/>
-  <rect x="70" y="45" width="160" height="40" fill="#5d3b2b"/>
-  <rect x="90" y="90" width="40" height="40" fill="#6b4a2e"/>
-  <rect x="170" y="90" width="40" height="40" fill="#6b4a2e"/>
-  <text x="150" y="155" text-anchor="middle" font-family="Arial" font-size="24" fill="#ffffff">The Ruins</text>
-</svg>

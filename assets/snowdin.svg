@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180">
-  <rect width="300" height="180" fill="#2d4a5b"/>
-  <rect x="0" y="120" width="300" height="60" fill="#5f8f6b"/>
-  <rect x="70" y="70" width="40" height="60" fill="#ffffff"/>
-  <rect x="190" y="70" width="40" height="60" fill="#ffffff"/>
-  <polygon points="150,40 180,90 120,90" fill="#cfe8ff"/>
-  <text x="150" y="155" text-anchor="middle" font-family="Arial" font-size="24" fill="#ffffff">Snowdin</text>
-</svg>

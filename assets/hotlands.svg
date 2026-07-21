@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180">
-  <rect width="300" height="180" fill="#4d1f1f"/>
-  <circle cx="150" cy="90" r="70" fill="#ff7a1a"/>
-  <rect x="60" y="110" width="180" height="30" fill="#8a2c2c"/>
-  <text x="150" y="155" text-anchor="middle" font-family="Arial" font-size="24" fill="#ffffff">Hotlands</text>
-</svg>
