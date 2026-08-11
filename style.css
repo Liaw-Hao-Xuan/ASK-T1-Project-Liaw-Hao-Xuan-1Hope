@@ -7,20 +7,51 @@ body{
 
 h1{
   text-align: center;
-  font-size: 40px;
+  font-size: 40px;	
 }
 
 .main-nav{
   display: flex;
-  justify-content: center;
+  flex-direction:column;
   background-color: #111;
   padding: 10px;
+  align-items:center;
 }
 
 .nav-item{
   color: white;
   text-decoration: none;
-  margin: 0 15px;
+  margin: 15px;
+  font-weight:800;
+  font-size:30px;
+  white-space: nowrap;
+}
+
+@keyframes nav-animation{
+   0%{
+      transform:scaleX(0);
+      transform-origin:right;
+      opacity:1;
+   }
+
+   100%{
+      transform:scaleX(1);
+      transform-origin:right;
+      opacity:0;
+   }
+}
+
+.nav-item:hover{
+  color: white;
+  background-color:#222;
+  padding:1px;
+  border-radius:2px;
+  text-decoration: underline;
+  margin: 15px;
+  font-weight:800;
+  font-size:30px;
+  white-space: nowrap;
+  animation-name:nav-animation;
 }
 
 .page-main{
@@ -42,13 +73,19 @@ h1{
   justify-content: center;
 }
 
+.card1,
+.card2,
+.card3,
+.card4,
 .review-card,
 .highlight-card,
 .gallery-card,
 .carousel-card{
   background-color: #222;
   padding: 15px;
+  margin: 15px;
   border-radius: 10px;
+  border:1px solid #3c3c3c
 }
 
 .review-card{
@@ -90,12 +127,12 @@ h1{
   margin-top: 10px;
 }
 
-.carousel-track{
-  width: 300px;
+.carousel-card{
+  display:none;
 }
 
-.carousel-card{
-  display: none;
+.carousel-track{
+  width: 300px;
 }
 
 .carousel-card.active{
@@ -152,8 +189,8 @@ h1{
   }
 }
 
-.footer-title{
-  text-align: center;
-  font-size: 30px;
-  margin-top: 20px;
+.undertale-logo{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
 }

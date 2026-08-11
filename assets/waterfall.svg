@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180">
+  <rect width="300" height="180" fill="#21384a"/>
+  <path d="M0 95 C60 70, 100 70, 150 95 C200 120, 240 120, 300 95 L300 180 L0 180 Z" fill="#42799b"/>
+  <path d="M70 100 C100 75, 120 75, 150 100 C180 125, 200 125, 230 100" fill="none" stroke="#d8f2ff" stroke-width="6"/>
+  <text x="150" y="155" text-anchor="middle" font-family="Arial" font-size="24" fill="#ffffff">Waterfall</text>
+</svg>
